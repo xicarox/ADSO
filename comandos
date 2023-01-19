@@ -1,0 +1,6 @@
+-------------contar---Caracteres-----------------------------------
+SELECT SUM(length(nombre)) FROM clientes;
+---------------remplazar---------------------------------
+update mi_tabla
+set id = replace(id, '.', '_');
+------------------------------------------------------------	2
