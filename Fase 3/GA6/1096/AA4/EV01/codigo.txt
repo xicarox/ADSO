@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutorial: Creación de una lista de tareas</title>
+    <style>
+      /*CSS para estilizar la página*/
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      ol {
+        margin: 0 auto;
+        width: 50%;
+      }
+      li {
+        margin: 10px 0;
+      }
+      .task-title {
+        font-weight: bold;
+      }
+      .task-description {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tutorial: Creación de una lista de tareas</h1>
+    <ol>
+      <li>
+        <a href="#task-1">
+          <h2 class="task-title">Creación de una lista ordenada</h2>
+        </a>
+        <p class="task-description">Aprende cómo crear una lista ordenada en HTML utilizando la etiqueta "ol" y "li".</p>
+      </li>
+      <li>
+        <a href="#task-2">
+          <h2 class="task-title">Añadir estilo con CSS</h2>
+        </a>
+        <p class="task-description">Aprende cómo utilizar CSS para dar estilo a tu lista de tareas, como cambiar el color, el tamaño, etc.</p>
+      </li>
+      <li>
+        <a href="#task-3">
+          <h2 class="task-title">Añadir imágenes a tus tareas</h2>
+        </a>
+        <p class="task-description">Aprende cómo añadir imágenes a tus tareas utilizando la etiqueta "img" y cómo darle estilo con CSS.</p>
+      </li>
+    </ol>
+  </body>
+</html>
+  
